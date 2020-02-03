@@ -28,7 +28,7 @@ For variable position sizes, we take position on all deciles with variable sizes
 **Beta neutral** - 
 For each position in a security S, as of a given simulation date d, perform an ordinary least squares linear regression of its daily returns on adjusted close prices to those of SPY ETF over the previous calendar month. The regression equation can be written as follows - 
 
-r<sub>S</sub> = b<sub>0</sub> + b<sub>1</sub> * r<sub>SPY</sub>
+>> r<sub>S</sub> = b<sub>0</sub> + b<sub>1</sub> * r<sub>SPY</sub>
 
 To achieve beta neutrality, we assume that in addition to $x of this security, portfolio also takes on a position of -$b<sub>1</sub>x in the SPY ETF. 
 
